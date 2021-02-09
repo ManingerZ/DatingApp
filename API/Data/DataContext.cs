@@ -10,7 +10,7 @@ namespace API.Data
         public DataContext([NotNullAttribute] DbContextOptions options) : base(options)
         {
         }
-
+        
         protected DataContext()
         {
         }
